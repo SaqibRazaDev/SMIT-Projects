@@ -1,0 +1,65 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: #2B2B2B;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.nav-link {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+
+navbar-nav {
+    align-items: center;
+    text-align: center;
+}
+
+/* Discover Section */
+
+@media only screen and (max-width: 480px) {
+    .section-1-heading {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+    .section-1-heading {
+        font-size: 38px;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    .section-1-heading {
+        font-size: 67px;
+    }
+}
+
+/* Trending Section */
+
+.card-1 {
+    background-color: #2B2B2B;
+    border: 0px;
+}
+
+/* More NFTs Section */
+
+.card-2 {
+    background-color: #3B3B3B;
+    border: 0px;
+    /* width: 250px; */
+}
+
+.space-mono {
+    font-family: 'Space Mono', monospace;
+}
+
+/* Artist Section */
+
+.artist-card{
+    display: grid;
+    place-items: center;
+}
